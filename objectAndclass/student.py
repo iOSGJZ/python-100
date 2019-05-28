@@ -159,11 +159,11 @@ if __name__ == "__main__":
     print(p2)
     print(p1.distance_to(p2))
 
-    # clock = Clock(hour=23, minute=59, second=58)
-    # clock = Clock()
-    # while True: 
-    #     os.system('clear')
-    #     print(clock.show())
-    #     time.sleep(1)
-    #     clock.run()
+    clock = Clock(hour=23, minute=59, second=58)
+    clock = Clock()
+    while True: 
+        os.system('clear')
+        print(clock.show())
+        time.sleep(1)
+        clock.run()
 
