@@ -136,7 +136,12 @@ class Point(object):
         return sqrt(dx ** 2 + dy ** 2)
 
     def __str__(self):
+        """对象的字符串表达式"""
         return '(%s, %s)' % (str(self.x),str(self.y))
+
+    def __del__(self):
+        """析构器"""
+        print('销毁对象')
 
 
 
